@@ -38,8 +38,8 @@ header {
 }
 section {
     padding: 20px;
-    margin-left: 220px; /* Ensure content is shifted to the right to leave space for the menu */
-    width: 100%;
+    margin-left: 220px; /* Shifts content to leave space for the menu */
+    width: calc(100% - 240px); /* Adjusts to use the full remaining width */
 }
 section h2 {
     color: #d32f2f; /* Rouge */
